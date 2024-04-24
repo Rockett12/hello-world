@@ -24,8 +24,11 @@
           <h2>About Me</h2>
           <p>Hello! I'm Your Name, a web developer with a passion
               for front-end design and user experience.
-              I've been building websites for over 5 years
+              I've been on building websites for over 5 years
                 and love what I do.</p>
+	  <p>this is testing of new file</p>
+	  <p>this is testing of new file</p>
+	  <p>this is testing of new file</p><p>this is testing of new file</p>
           <!-- Add more paragraphs as needed -->
       </section>
       <section class="projects">
