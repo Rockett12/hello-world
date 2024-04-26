@@ -60,9 +60,9 @@
 <div class="container">
     <div class="product">
         <img src="https://via.placeholder.com/300" alt="Shoe 1">
-        <h2>Nike Air Max</h2>
-        <p>Men's Running Shoes - Black/White</p>
-        <p>Price: $99.99</p>
+        <h2>vaishnavi ki chappal</h2>
+        <p>bhagti nahi hai</p>
+        <p>Price: Free</p>
         <button>Add to Cart</button>
     </div>
 
@@ -70,9 +70,9 @@
 
     <div class="product">
         <img src="https://via.placeholder.com/300" alt="Shoe 2">
-        <h2>Adidas Ultraboost</h2>
-        <p>Women's Running Shoes - Pink/White</p>
-        <p>Price: $129.99</p>
+        <h2>vaishnavi ke Adidas Ultraboost joote</h2>
+        <p>kya fayda gymm nahi jaati</p>
+        <p>Price: please fek do</p>
         <button>Add to Cart</button>
     </div>
 
