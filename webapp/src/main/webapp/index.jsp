@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sellers - Shoes Marketplace</title>
+    <title>Hospital Website</title>
     <style>
         /* Basic styling */
         body {
@@ -22,20 +22,15 @@
             max-width: 1200px;
             margin: auto;
             padding: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
         }
-        .product {
+        .department {
             background-color: #fff;
             border: 1px solid #ddd;
             border-radius: 5px;
             padding: 20px;
             margin-bottom: 20px;
-            width: 30%;
-            box-sizing: border-box;
         }
-        .product img {
+        .department img {
             max-width: 100%;
             height: auto;
             margin-bottom: 10px;
@@ -54,34 +49,30 @@
 <body>
 
 <header>
-    <h1>Sellers - Shoes Marketplace</h1>
+    <h1>Welcome to Our Hospital</h1>
 </header>
 
 <div class="container">
-    <div class="product">
-        <img src="https://via.placeholder.com/300" alt="Shoe 1">
-        <h2>vaishnavi ki chappal</h2>
-        <p>bhagti nahi hai</p>
-        <p>Price: Free</p>
-        <button>Add to Cart</button>
+    <div class="department">
+        <img src="https://via.placeholder.com/400" alt="Emergency Department">
+        <h2>Emergency Department</h2>
+        <p>Our emergency department provides 24/7 emergency care services.</p>
+        <a href="#">Learn More</a>
     </div>
 
-    <!-- Repeat the product listing structure for other shoes -->
-
-    <div class="product">
-        <img src="https://via.placeholder.com/300" alt="Shoe 2">
-        <h2>vaishnavi ke Adidas Ultraboost joote</h2>
-        <p>kya fayda gymm nahi jaati</p>
-        <p>Price: please fek do</p>
-        <button>Add to Cart</button>
+    <div class="department">
+        <img src="https://via.placeholder.com/400" alt="Cardiology Department">
+        <h2>Cardiology Department</h2>
+        <p>Specialized in diagnosing and treating heart diseases and conditions.</p>
+        <a href="#">Learn More</a>
     </div>
 
-    <!-- Add more listings here -->
+    <!-- Add more department sections here -->
 
 </div>
 
 <footer>
-    <p>&copy; 2024 Sellers - Shoes Marketplace. All rights reserved.</p>
+    <p>&copy; 2024 Our Hospital. All rights reserved.</p>
 </footer>
 
 </body>
