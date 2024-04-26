@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketplace</title>
+    <title>Sellers - Shoes Marketplace</title>
     <style>
         /* Basic styling */
         body {
@@ -44,31 +44,32 @@
 <body>
 
 <header>
-    <h1>Welcome to Our Marketplace</h1>
+    <h1>Sellers - Shoes Marketplace</h1>
 </header>
 
 <div class="container">
     <div class="product">
-        <h2>Product Name 1</h2>
-        <p>Description of Product 1 goes here...</p>
-        <p>Price: $XX.XX</p>
+        <h2>Nike Air Max</h2>
+        <p>Men's Running Shoes - Black/White</p>
+        <p>Price: $99.99</p>
         <button>Add to Cart</button>
     </div>
 
     <div class="product">
-        <h2>Product Name 2</h2>
-        <p>Description of Product 2 goes here...</p>
-        <p>Price: $XX.XX</p>
+        <h2>Adidas Ultraboost</h2>
+        <p>Women's Running Shoes - Pink/White</p>
+        <p>Price: $129.99</p>
         <button>Add to Cart</button>
     </div>
 
-    <!-- Add more products here as needed -->
+    <!-- Add more shoes listings here as needed -->
 
 </div>
 
 <footer>
-    <p>&copy; 2024 Marketplace. All rights reserved.</p>
+    <p>&copy; 2024 Sellers - Shoes Marketplace. All rights reserved.</p>
 </footer>
 
 </body>
 </html>
+
