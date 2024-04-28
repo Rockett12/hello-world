@@ -62,7 +62,7 @@
     <div class="shoe">
         <img src="https://via.placeholder.com/300" alt="Shoe 1">
         <h2>Running Shoes</h2>
-        <p>Comfortable running shoes for athletes</p>
+        <p>Comfortable rudddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddnning shoes for athletes</p>
         <p>Price: $49.99</p>
         <button>Add to Cart</button>
     </div>
@@ -73,7 +73,7 @@
         <img src="https://via.placeholder.com/300" alt="Shoe 2">
         <h2>Formal Shoes</h2>
         <p>Elegant formal shoes for men</p>
-        <p>Price: $79.99</p>
+        <p>Price: nothing</p>
         <button>Add to Cart</button>
     </div>
 
