@@ -3,88 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoe Exporting Company</title>
+    <title>Laptop Store</title>
     <style>
-        /* Basic styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
         }
         header {
-            background-color: orange;
+            background-color: #333;
             color: #fff;
-            padding: 10px;
+            padding: 10px 20px;
             text-align: center;
         }
-        .container {
-            max-width: 1200px;
-            margin: auto;
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
             padding: 20px;
+        }
+        .laptop {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
         }
-        .shoe {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 20px;
-            margin-bottom: 20px;
-            width: 30%;
-            box-sizing: border-box;
+        .laptop-item {
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
         }
-        .shoe img {
+        .laptop-item img {
             max-width: 100%;
             height: auto;
-            margin-bottom: 10px;
-        }
-        footer {
-            background-color: orange;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Shoe Exporting Company</h1>
-</header>
-
-<div class="container">
-    <div class="shoe">
-        <img src="https://via.placeholder.com/300" alt="Shoe 1">
-        <h2>Running Shoes</h2>
-        <p>Comfortable rudddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddnning shoes for athletes</p>
-        <p>Price: $49.99</p>
-        <button>Add to Cart</button>
-    </div>
-
-    <!-- Repeat the shoe listing structure for other shoes -->
-
-    <div class="shoe">
-        <img src="https://via.placeholder.com/300" alt="Shoe 2">
-        <h2>Formal Shoes</h2>
-        <p>Elegant formal shoes for men</p>
-        <p>Price: nothing</p>
-        <button>Add to Cart</button>
-    </div>
-
-    <!-- Add more shoe listings here -->
-
-</div>
-
-<footer>
-    <p>&copy; 2024 Shoe Exporting Company. All rights reserved.</p>
-</footer>
-
+    <header>
+        <h1>Welcome to our Laptop Store</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <div class="laptop">
+            <div class="laptop-item">
+                <img src="laptop1.jpg" alt="Laptop 1">
+                <h2>Laptop 1</h2>
+                <p>Description of Laptop 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Price: $999</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="laptop-item">
+                <img src="laptop2.jpg" alt="Laptop 2">
+                <h2>Laptop 2</h2>
+                <p>Description of Laptop 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Price: $1199</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more laptop items here -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Laptop Store. All rights reserved.</p>
+    </footer>
 </body>
 </html>
 
